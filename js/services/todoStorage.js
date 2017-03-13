@@ -122,7 +122,7 @@ angular.module('todomvc')
 			clearCompleted: function () {
 				var deferred = $q.defer();
 
-				var completeTodos = [];
+				var  completeTodos = [];
 				var incompleteTodos = [];
 				store.todos.forEach(function (todo) {
 					if (todo.completed) {
